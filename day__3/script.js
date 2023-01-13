@@ -4,6 +4,7 @@ function generate() {
     min = Number(input_min.value);
     max = Number(input_max.value);
     generated = parseInt(Math.floor(Math.random() * (max - min) + min));
+    document.getElementById("numberGenerated").innerHTML = generated;
 }
 
 
